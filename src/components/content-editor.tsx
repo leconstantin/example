@@ -44,7 +44,7 @@ export default function ContentEditor() {
   };
   return (
     <>
-      <main className="shadow-lg bg-white rounded-lg max-w-5xl mx-auto min-h-[400px] ring ring-secondary w-full">
+      <main className="shadow-lg bg-white rounded-lg max-w-5xl mx-auto min-h-[400px] ring-3 ring-secondary w-full">
         <SiteHeader />
         <Form {...form}>
           <form

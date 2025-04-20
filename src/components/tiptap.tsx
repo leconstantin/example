@@ -55,7 +55,7 @@ export default function TipTap({
     editorProps: {
       attributes: {
         class:
-          "rounded-md border min-h-[500px] border-input px-3 py-2 w-full bg-transparent text-base shadow-sm focus:outline-none focus-visible:ring-1 focus-visible:ring-blue-400 md:text-base linear duration-200",
+          "rounded-md border min-h-[500px] border-input px-3 py-2 w-full bg-transparent text-base shadow-xs focus:outline-hidden focus-visible:ring-1 focus-visible:ring-blue-400 md:text-base linear duration-200",
       },
     },
     onUpdate({ editor }) {
